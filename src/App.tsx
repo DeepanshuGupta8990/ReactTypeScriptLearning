@@ -8,6 +8,7 @@ import Heading from './components/Heading';
 import Oscar from './components/Oscar';
 import Button from './components/Button';
 import Input from './components/Input';
+import Container from './components/Container';
 
 function App() {
   const personName = {
@@ -46,6 +47,7 @@ function App() {
             console.log('event',event,id)
           }}/>
           <Input value='' handleChange={(event)=>{console.log(event)}}/>
+          <Container styles={{border:"2px solid black",padding:'1rem',margin:"20px auto" ,width:"max-content"}}/>
     </div>
   );
 }
